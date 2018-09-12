@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            Dette er en public klasse bil
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Bil.Nummerplade">
+            <value>Dette er Nummerplade</value>
+        </member>
+        <member name="P:BilletLibrary.Bil.Dato">
+            <value>Dette er dato</value>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            returnerer prisen
+            </summary>
+            <returns>240</returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            returnerer hvilket køretøj
+            </summary>
+            <returns>Bil</returns>
+        </member>
+    </members>
+</doc>
