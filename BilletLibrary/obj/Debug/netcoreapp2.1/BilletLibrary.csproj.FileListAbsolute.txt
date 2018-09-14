@@ -2,7 +2,6 @@ C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\bin\Debug\
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.dll
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.pdb
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.xml
-C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.csprojAssemblyReference.cache
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.csproj.CoreCompileInputs.cache
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.AssemblyInfoInputs.cache
 C:\source\BilletLibrary\billetlibrary-michaelSteinmejer\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.AssemblyInfo.cs

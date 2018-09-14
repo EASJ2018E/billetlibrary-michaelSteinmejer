@@ -9,12 +9,6 @@
             Dette er en public klasse bil
             </summary>
         </member>
-        <member name="P:BilletLibrary.Bil.Nummerplade">
-            <value>Dette er Nummerplade</value>
-        </member>
-        <member name="P:BilletLibrary.Bil.Dato">
-            <value>Dette er dato</value>
-        </member>
         <member name="M:BilletLibrary.Bil.Pris">
             <summary>
             returnerer prisen
@@ -26,6 +20,53 @@
             returnerer hvilket køretøj
             </summary>
             <returns>Bil</returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            Dette er en public klasse MC:transport
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Motorcykel konstruktør der arver fra base class
+            </summary>
+            <param name="nummerplade"></param>
+            <param name="dato"></param>
+            <param name="brobizz"></param>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            returnerer prisen
+            </summary>
+            <returns>125</returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
+            <summary>
+            returnerer hvilket køretøj
+            </summary>
+            <returns>MC</returns>
+        </member>
+        <member name="T:BilletLibrary.Transportmiddel">
+            <summary>
+            Abstract base klasse (Transportmiddel) der skal overskrives
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Transportmiddel.Brobizz">
+            <summary>
+            en bool værdi hvis du har det får du rabat
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Transportmiddel.Pris">
+            <summary>
+            Retur metode der skal overskrives double(Pris)
+            </summary>
+            <returns>Pris på Transportmiddel</returns>
+        </member>
+        <member name="M:BilletLibrary.Transportmiddel.Køretøj">
+            <summary>
+            Retur metode der skal overskrives string(Køretøj)
+            </summary>
+            <returns> Type af Transportmiddel</returns>
         </member>
     </members>
 </doc>
