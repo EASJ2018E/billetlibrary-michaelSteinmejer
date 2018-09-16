@@ -21,25 +21,17 @@ namespace BilletLibrary
             Dato = dato;
             Brobizz = brobizz;
         }
-        /// <summary>
-        /// Brobizz rabat på 5%
-        /// </summary>
-        /// <returns></returns>
-        public double BrobizzRabat()
-        {
-            if (Brobizz == true)
-            {
-                return Pris() * 0.95;
-            }
-            return Pris();
-        }
-        /// <summary>
+       /// <summary>
         /// returnerer prisen
         /// </summary>
         /// <returns>240</returns>
         public override double Pris()
         {
-          return 240;
+            if (Brobizz == true)
+            {
+                return 240 * 0.95;
+            }
+            return 240;
         }
         /// <summary>
         /// returnerer hvilket køretøj

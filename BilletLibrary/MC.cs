@@ -30,23 +30,15 @@ namespace BilletLibrary
             
         }
         /// <summary>
-        /// Brobizz rabat på 5%
-        /// </summary>
-        /// <returns></returns>
-        public double BrobizzRabat()
-        {
-            if (Brobizz == true)
-            {
-                return Pris() * 0.95;
-            }
-            return Pris();
-        }
-        /// <summary>
         /// returnerer prisen
         /// </summary>
         /// <returns>125</returns>
         public override double Pris()
-        {   
+        {
+            if (Brobizz == true)
+            {
+                return 125 * 0.95;
+            }
             return 125;
         }
         /// <summary>
