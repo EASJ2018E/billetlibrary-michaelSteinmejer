@@ -16,7 +16,7 @@ namespace BilletLibrary
         /// <param name="brobizz"></param>
         public MC(string nummerplade, DateTime dato, bool brobizz) : base(nummerplade, dato, brobizz)
         {
-            if (nummerplade.Length >= 8)
+            if (nummerplade.Length > 7)
             {
                 throw new SystemException("DET ER IKKE EN NUMMERPLADE KNOLD!!!");
             }
